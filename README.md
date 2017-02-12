@@ -10,7 +10,7 @@ This firmware is based on DD-WRT for WR**8**41ND**V8**, which is based on the sa
 
 On Ubuntu 14.04 or 16.04, run:
 ```
-sudo apt-get update && sudo apt-get install -y python3
+sudo apt-get update && sudo apt-get -y install python3
 git clone https://github.com/leonidasv/wr941ndv5-ddwrt.git
 cd wr941ndv5-ddwrt
 python3 make.py
