@@ -3,8 +3,10 @@ import mmap
 import urllib.request
 from pathlib import Path
 print('Checking for firmware...')
-my_file = Path("factory-to-ddwrt.bin")
-if my_file.is_file():
+firmware = Path("factory-to-ddwrt.bin")
+if firmware.is_file():
+	print("File exists.")
+else:
 	print("Firmware not found, downloading it from DD-WRT servers...")
 	urllib.request.urlretrieve("http://download1.dd-wrt.com/dd-wrtv2/downloads/betas/2017/02-07-2017-r31277/tplink_tl-wr841ndv8/factory-to-ddwrt.bin", "factory-to-ddwrt.bin")
 	print("Success: download.")
