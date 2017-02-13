@@ -1,9 +1,6 @@
-#compatibility layer for Python 2.7
-from __future__ import absolute_import
-#binary editor
-import mmap
-#download library
-import urllib.request
+from __future__ import absolute_import #compatibility layer for Python 2.7
+import mmap #binary editor
+import urllib.request #download library
 from pathlib import Path
 
 #checks for file
