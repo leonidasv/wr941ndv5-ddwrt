@@ -1,4 +1,6 @@
 # wr941ndv5-ddwrt
+* For more info, please visit: http://leonidasv.com/how-i-got-dd-wrt-running-on-an-unsupported-tp-link-wr941nd-v5-2/
+
 Source and pre-compiled DD-WRT firmware for TP-LINK WR941ND V5 (beta build 02-07-2017-r31277)
 
 This firmware is based on DD-WRT for WR**8**41ND**V8**, which is based on the same hardware but has different model and checksum identifiers.
