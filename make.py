@@ -29,7 +29,7 @@ time.sleep(0.5)
 #replaces the special checksum; if you want to recalculate the special checksum again, compile mktplinkfw.c from https://github.com/jtreml/firmware-mod-kit/tree/master/src/firmware-tools
 #then, rum $mktplinkfw -i [FILENAME]
 #NOTE: mktplinkfw.c requires md5.h and md5.c, also found in the same repo linked above
-m[0x4C:0x5C] = b'\xA9\x8C\x08\xBD\xD1\x70\x60\x8E\x9B\xF4\x07\xB5\x8F\xA9\x83\x7A'
+m[0x4C:0x5C] = b'\x13\xBC\x40\x88\x28\x2F\x0F\x21\x68\x78\x61\x98\x54\xF3\x17\x7F'
 print("Success: checksum fix")
 time.sleep(0.2)
 print("Try uploading now.")
